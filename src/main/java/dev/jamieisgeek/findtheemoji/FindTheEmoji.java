@@ -12,7 +12,7 @@ public final class FindTheEmoji extends JavaPlugin {
     @Override
     public void onEnable() {
         new Game();
-        getCommand("egame").setExecutor(new CommandHandler());
+        getCommand("estart").setExecutor(new CommandHandler());
         getServer().getPluginManager().registerEvents(new EventListener(), this);
 
         logger.info("");

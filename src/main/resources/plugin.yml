@@ -4,3 +4,12 @@ main: dev.jamieisgeek.findtheemoji.FindTheEmoji
 api-version: 1.18
 depend: [ HeadDatabase ]
 authors: [ JamieIsGeek ]
+commands:
+  estart:
+    description: Start FindTheEmoji
+    usage: /<command>
+    aliases:
+      - emoji
+      - emojistart
+      - startemoji
+      - findtheemoji
