@@ -1,0 +1,6 @@
+name: FindTheEmoji
+version: '${project.version}'
+main: dev.jamieisgeek.findtheemoji.FindTheEmoji
+api-version: 1.18
+depend: [ HeadDatabase ]
+authors: [ JamieIsGeek ]
